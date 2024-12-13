@@ -1,4 +1,5 @@
 *Calendar Application for managing task*
+
 App follows MVVM Pattern. Test cases are also covered. Coroutines are used in the app. Project structure is maintained.
 
 App Features and Functionality:
