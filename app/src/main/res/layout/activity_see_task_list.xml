@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/backIcon"
+        android:text="@string/label_tasks_list"
+        android:tint="@color/white"
+        android:textColor="@color/black"
+        android:drawablePadding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/arrow_back" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etUserId"
+        android:textColorHint="@color/block_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_enter_user_id"
+        android:textColor="@color/black"
+        android:inputType="phone"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFetchTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="@color/purple"
+        android:textColor="@color/white"
+        android:text="@string/label_fetch_tasks" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/deleteNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="5dp"
+        android:text="@string/label_long_press_the_tile_to_delete_the_task"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/emptyList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        android:text="@string/label_no_data_available_for_this_user_id"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTaskList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp" />
+</LinearLayout>

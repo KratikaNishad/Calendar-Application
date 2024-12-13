@@ -1,0 +1,28 @@
+<resources>
+    <string name="label_please_enter_a_user_id">Please enter a user ID</string>
+    <string name="label_failed_to_load_tasks">Failed to load tasks</string>
+    <string name="label_app_name">Calendar Application</string>
+    <string name="label_task_deleted_successfully">Task deleted successfully</string>
+    <string name="label_failed_to_save_task_please_try_again">Failed to save task. Please try again. %1$s</string>
+    <string name="label_failed_to_save_task">Failed to save task.</string>
+    <string name="label_task_saved_successfully">Task saved successfully</string>
+    <string name="label_please_enter_all_the_fields">Please enter all the fields</string>
+    <string name="label_selected_date">Selected Date: %1$s</string>
+    <string name="label_no_data_available_for_this_user_id">No Data Available for this user ID</string>
+    <string name="label_long_press_the_tile_to_delete_the_task">** Long press the tile to delete the task **</string>
+    <string name="label_fetch_tasks">Fetch Tasks</string>
+    <string name="label_enter_user_id">Enter User ID</string>
+    <string name="label_add_task">Add task</string>
+    <string name="label_see_tasks">See tasks</string>
+    <string name="label_tasks_list">Tasks List</string>
+    <string name="label_save_task">Save Task</string>
+    <string name="label_enter_task_description">Enter Task Description</string>
+    <string name="label_enter_task_title">Enter Task Title</string>
+    <string name="label_select_date">Selected Date</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_task_description">Task Description</string>
+    <string name="label_task_title">Task Title</string>
+    <string name="label_calendar">CALENDAR</string>
+    <string name="label_no_internet_connection">No Internet Connection</string>
+    <string name="recent_task">User ID: %1$s\nTitle: %2$s\nDescription: %3$s</string>
+</resources>
