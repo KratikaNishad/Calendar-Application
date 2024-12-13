@@ -1,4 +1,4 @@
-#*Calendar Application for managing task*
+<h1>**Calendar Application for managing task**</h1>
 
 App follows MVVM Pattern. Test cases are also covered. Coroutines are used in the app. Project structure is maintained.
 
